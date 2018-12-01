@@ -15,7 +15,7 @@ public class PracticeDay2{
 
 		public static int convertToInt(ArrayList<Integer> mist){
 			int a=0;
-			for(int i=0;i<mist.size();i++){
+			for(int i=0;i<=mist.size();i++){
 				a+=mist.get(0)*(int)Math.pow(10,mist.size()-1);
 				mist.remove(0);
 			}
